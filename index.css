@@ -3,8 +3,6 @@
     background-color: blue;
     font-style: oblique;
     padding: 5px;
-    margin-left: 400px;
-    margin-right: 400px;
     font-weight: bold;
 }
 
@@ -17,14 +15,14 @@
 #ParteTextoTítulo {
     flex: 1;
     margin-right: 20px;
-    margin-left: 400px;
+    margin-left: 100px;
     align-items: center;
 }
 
 #ParteImagemLegenda {
     flex-wrap: wrap-reverse;
     justify-content: flex-end;
-    margin-right: 400px;
+    margin-right: 100px;
     width: 500px;
 }
 
@@ -33,7 +31,6 @@
     background-color: blue;
 
 }
-
 
 .Centralizado {
     display: flex;
@@ -53,6 +50,14 @@
     background-color: blue;
 }
 
+.linha {
+    padding-right: 8px;
+    border-right: 1px solid white;
+    white-space: pre-line;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 img {
     float: right;
 }
@@ -66,10 +71,20 @@ p {
 h1 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 7ch;
 }
 
 body {
     background-color: black;
     border-style: solid;
     border-color: blue;
+}
+
+ul li{
+    display: inline;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
